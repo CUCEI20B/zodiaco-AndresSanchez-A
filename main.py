@@ -1,6 +1,6 @@
 print("Simbolo del Zodiaco")
-mes = int(input("Numero de mes de nacimiento: "))
 dia = int(input("Numero de dia de nacimiento: "))
+mes = int(input("Numero de mes de nacimiento: "))
 if mes == 12: 
     if dia >= 1 and dia <= 21:
         print("Tu simbolo es sagitario")
